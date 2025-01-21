@@ -1,0 +1,17 @@
+#elso{
+    background-color: rebeccapurple ;
+}
+/*
+h1{
+    font-family: sans-serif;
+}
+h2{
+    font-family: sans-serif;
+}
+h3{
+    font-family: sans-serif;
+}
+*/
+h1,h2,h3{
+    font-family: sans-serif;
+}

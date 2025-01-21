@@ -1,0 +1,25 @@
+body{
+    font-family: arial;
+}
+h1{
+    color: rebeccapurple;
+    font-size: 300%;
+}
+p{
+    color: purple;
+}
+h2.kek{
+    color: blueviolet;
+}
+p.kek{
+    font-weight: bolder;
+}
+h1.fontos{
+    color: red;
+}
+p.fontos{
+    border: 1px solid red;
+}
+.vastag{
+    font-weight: bold;
+}
