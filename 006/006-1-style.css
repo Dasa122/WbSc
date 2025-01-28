@@ -1,0 +1,19 @@
+h1, h2{
+    color: darkslategrey;
+}
+.spring{
+    color: green;
+}
+.summer{
+    color: goldenrod;
+}
+.autumn{
+    color: firebrick;
+}
+.winter{
+    color: dodgerblue;
+}
+#main_title{
+    color: rebeccapurple;
+    background-color: lightgray;
+}
