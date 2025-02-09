@@ -1,0 +1,24 @@
+body{
+    background-color: #D8D8F6;
+}
+
+#iniciale {
+ font-size: 150%;
+    color: #690ca5
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #7E3F8F;
+}
+
+p {
+    color: #143109
+}
+
+h1{
+    font-size: 300%;
+}
+
+img{
+    width: 500px;
+}
