@@ -1,0 +1,16 @@
+.pelda1{
+    width: 150px;
+    height: 100px;
+    border: 1px solid blue;
+}
+.pelda2{
+    width: 70%;
+    height: 100px;
+    border: 1px solid blue;
+}
+.pelda3{
+    width: 70%;
+    min-width: 200px;
+    max-width: 600px;
+    border: 1px solid blue;
+}

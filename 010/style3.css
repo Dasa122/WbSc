@@ -1,0 +1,18 @@
+.pelda1{
+    width: 200px;
+    border: 1px solid blue;
+    padding: 30px;
+}
+.pelda2{
+    width: 200px;
+    border: 1px solid blue;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.pelda3{
+    width: 200px;
+    border: 1px solid blue;
+    padding: 20px 10px 0px 15px;
+}

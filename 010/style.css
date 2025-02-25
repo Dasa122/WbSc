@@ -1,0 +1,19 @@
+.pelda1{
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.pelda2{
+    border: 1px solid blue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.pelda3{
+    border: 1px solid blue;
+    border-radius: 300px;
+    height: 300px;
+}
