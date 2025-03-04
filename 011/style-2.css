@@ -1,0 +1,28 @@
+.pelda1{
+    text-align: left;
+    text-decoration: underline overline solid blue;
+    text-transform: capitalize;
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+.pelda2{
+    text-align: center;
+    text-decoration: underline double;
+    text-transform: uppercase;
+    text-indent: 16px;
+    line-height: normal;
+}
+.pelda3{
+    text-align: right;
+    text-decoration: line-through dotted;
+    text-transform: lowercase;
+    text-indent: 10%;
+    line-height: 50px;
+}
+.pelda4{
+    text-align: justify;
+    text-decoration: none dashed;
+    text-transform: none;
+    line-height: 30px;
+    /* wavy */
+}

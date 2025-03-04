@@ -1,0 +1,21 @@
+div{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background-color: darkolivegreen;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+}
+#elso{
+border-radius: 25px;
+}
+
+#masodik{
+border-radius: 50%;
+}
+
+#harmadik{
+border-radius: 10px 20px 30px 40px;
+}

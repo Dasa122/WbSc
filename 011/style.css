@@ -1,0 +1,31 @@
+#outer-container {
+    background-color: lightseagreen;
+    border: 10px solid darkcyan;
+    margin: auto;
+    width: 400px;
+}
+
+#inner-container {
+    background-color: yellowgreen;
+    width: 100%;
+    /*5. feladat*/
+    box-sizing: border-box;
+
+    /*1. feladat*/
+    border: 15px solid darkgreen;
+    /*2. feladat*/
+    padding: 10px;
+}
+
+p {
+    width: 100%;
+    /*6. feladat*/
+    box-sizing: border-box;
+
+    /*4. feladat*/
+    border: 10px solid orange;
+}
+
+h1 {
+    text-align: center;
+}
