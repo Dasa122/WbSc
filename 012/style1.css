@@ -1,0 +1,12 @@
+.ls1{
+    word-spacing: normal;
+}
+.ls2{
+    word-spacing: 0.3em;
+}
+.ls3{
+    word-spacing: 10px;
+}
+.ls4{
+    word-spacing: -0.1em;
+}

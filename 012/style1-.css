@@ -1,0 +1,19 @@
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 10px;
+}
+h2{
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    text-decoration: underline double darkred;
+}
+p{
+    text-indent: 10px;
+    text-align: justify;
+    line-height: 25px;
+}
+.forras{
+    text-align: right;
+    font-style: italic;
+}
