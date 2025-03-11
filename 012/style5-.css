@@ -1,0 +1,26 @@
+#img01 {
+    /*1.a feladat*/
+    border: 1px dashed;
+    /*2.a feladat*/
+    border-radius: 50%;
+}
+
+#img02 {
+    /*1.b feladat*/
+    border: 3px solid orange;
+    /*2.b feladat*/
+    border-radius: 25px;
+    /*3. feladat*/
+
+}
+
+#img03 {
+    /*1.c feladat*/
+    border: 7px double rgb(51,51,170);
+    /*2.c feladat*/
+    border-radius: 30px 0 30px 0;
+}
+
+h1 {
+    text-align: center;
+}
