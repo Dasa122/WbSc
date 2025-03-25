@@ -1,0 +1,30 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+    margin: 40px;
+}
+
+.pl1{
+    box-shadow: -10px 20px salmon;
+ }
+ .pl2{
+     box-shadow: 5px 10px 5px salmon;
+ }
+ #kep1 {
+    float: left;
+     margin-right: 10px;
+ }
+ #kep2 {
+    float: right;
+     margin-left: 10px;
+ }
+ #kep3{
+     margin-too 1000px;
+     width: 200px;
+     float: left;
+     margin-right: 10px;
+ }
+ #szoveg{
+     clear: left;
+ }
