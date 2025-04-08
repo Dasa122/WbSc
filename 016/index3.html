@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    h1 {
+      text-align: center;
+    }
+
+    div {
+      background-color: darkred;
+      height: 50px;
+      text-align: center;
+    }
+    /*Alapértelmezett link*/
+    a:link, a:visited {
+      color: wheat;
+      font-size: 120%;
+      line-height: 50px;
+      font-variant: small-caps;
+      text-decoration: none;
+      padding: 10px 15px;
+      margin: 0 15px
+    }
+
+    /*Amikor a link fölé megyünk*/
+    a:hover {
+      border-top: 3px dotted wheat;
+      border-bottom: 3px dotted wheat;
+    }
+
+    /*Fókuszba kerül a link*/
+    a:focus{
+      background-color: wheat;
+      color: darkred;
+      border-top: 3px dotted darkred;
+      border-bottom: 3px dotted darkred;
+    }
+  </style>
+</head>
+<body>
+<h1>Ingyenes képek</h1>
+
+<div class="menu">
+  <a href="https://pixabay.com/hu/" target="_blank">Pixabay</a>
+  <a href="https://picsum.photos/" target="_blank">Lorempicsum</a>
+  <a href="https://unsplash.com/" target="_blank">Unsplash</a>
+</div>
+</body>
+</html>
