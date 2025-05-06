@@ -1,0 +1,20 @@
+table,th,td{
+    border:1px solid black;
+    padding:5px;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+tr:last-child{
+    background-color: lightblue;
+}
+
+tr:nth-child(even){
+    background-color:gold;
+}
+
+tr:nth-child(6n+1){
+    background-color:salmon;
+}

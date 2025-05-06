@@ -1,0 +1,25 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    caption-side: bottom;
+    margin: 0 auto;
+    padding: 5px;
+}
+th, td{
+    border-top: 2px dotted grey;
+    border-bottom: 2px dotted grey
+}
+
+caption{
+    color: darkblue;
+    font-style: italic;
+    margin-top: 6px
+}
+
+th{
+    background-color: lightgrey;
+}
+
+td{
+    text-align: center;
+}
