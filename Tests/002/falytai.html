@@ -2,127 +2,53 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <title>A 3D nyomtatás fajtái</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="theme.css">
-
+    <title>A 3D nyomtatas falytái</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="cool-bg">
+<body>
+<header>
+    <h1><span ID="iniciale">3D</span> nyomtatás</h1>
+</header>
 <nav>
-    <div class="navbar navbar-expand-lg navbar-dark custom-navbar-bg">
-        <div class="container-fluid">
-            <a class="navbar-brand px-3 py-2" id="iniciale" href="index.html">3D Nyomtatás</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link navcolor " href="index.html">Kezdőlap: Fedezd fel a 3D nyomtatás világát!</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link navcolor " href="3dnyomtats.html">Mi az a 3D nyomtatás?</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link navcolor " href="falytai.html">Nyomtatási technológiák</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link navcolor" href="anyagok.html">Filamentek és anyagok</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link navcolor" href="tippek.html">Tippek és trükkök</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link navcolor" href="media.html">Média</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link navcolor" href="kozosseg.html">Közösség</a>
-                    </li>                    
-                    <li class="nav-item ">
-                        <a class="nav-link navcolor" href="eszkozok.html">Eszközök és szoftverek</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <a href="index.html">Kezdőlap:Fedezd fel a 3D nyomtatás világát!</a><br>
+    <a href="3dnyomtats.html">Mi az a 3D nyomtatás?</a><br>
+    <a href="falytai.html">A 3D nyomtatas falytái</a> <br>
+    <a href="tippek.html">Tippek a kezdőknek</a><br>
+    <a href="media.html">Média</a>
 </nav>
-<section class="cool-section">
-    <h2 class="cool-title">A 3D nyomtatás <span class="highlight-3d">fajtái</span></h2>
-    <p class="highlighted-paragraph cool-highlight">
-        A 3D nyomtatásnak számos technológiája létezik, amelyek különböző anyagokat és eljárásokat alkalmaznak. Ezek közül a legfontosabbakat mutatjuk be.
-    </p>
+<section>
+    <h2>A 3D nyomtatas falytái</h2>
+    <p>
+        Vannak több fajtái is a 3D nyomtatásnak, amelyek különböző technológiákat alkalmaznak az anyag rétegekben
+        történő felépítésére: <br>
 
-    <div class="cool-tech-block float-left">
-        <img src="pic/fdmprinter.jpg" alt="FDM nyomtató" class="cool-img float-left cool-img-large">
-        <div class="cool-tech-text">
-            <h3 class="cool-tech-title">FDM (Fused Deposition Modeling)</h3>
-            <p>A legelterjedtebb eljárás, ahol egy olvasztott műanyag szálat (pl. PLA, ABS, PETG) extrudálnak és rétegenként építenek fel.</p>
-            <span class="figcaption cool-caption">FDM nyomtató működés közben</span>
-        </div>
-        <div style="clear:both;"></div>
-    </div>
+        <b>FDM (Fused Deposition Modeling)</b> – A legelterjedtebb eljárás, ahol egy olvasztott műanyag szálat (pl. PLA, ABS,
+        PETG) extrudálnak és rétegenként építenek fel. <br>
+        <img src="pic/fdmprinter.jpg"><br>
+        <b>SLA (Stereolithography)</b> – Folyékony gyantát keményít meg egy UV-lézer, így nagy felbontású és részletgazdag
+        nyomatokat eredményez. <br>
+        <img src="pic/slaprinter.jpg"><br>
+        <b>SLS (Selective Laser Sintering)</b> – Porállagú anyagot (például nylonport) olvaszt össze lézerrel, így tartós és
+        összetett szerkezetű alkatrészeket lehet nyomtatni. <br>
+        <img src="pic/slsprinter.jpg"><br>
+        <b>DLP (Digital Ligst Processing)</b> – Az SLA-hoz hasonló, de itt egy digitális projektor vetít UV-fényt a gyantára,
+        így egy egész réteg egyszerre keményedik meg. <br>
+        <img src="pic/dlpprinter.jpg"><br>
+        <b>MJF (Multi Jet Fusion)</b> – Egy tintasugaras technológia, amely hőérzékeny porra viszi fel a kötőanyagot, majd
+        hőkezeléssel hozza létre a végső formát. <br>
+        <img src="pic/mjfprinter.jpg"><br>
+        <b>Binder Jetting</b> – Színes vagy fém alapú nyomtatásra is alkalmas technológia, ahol egy kötőanyag rétegenként
+        rögzíti a port, majd utókezeléssel erősítik meg az objektumot. <br>
+        <img src="pic/binder_jetting.jpg"><br>
+        Ezeket a technológiákat az ipar, a prototípusgyártás, az orvostudomány és a hobbi 3D nyomtatás területén
+        egyaránt alkalmazzák.
 
-    <div class="cool-tech-block float-right">
-        <img src="pic/slaprinter.jpg" alt="SLA nyomtató" class="cool-img float-right cool-img-large">
-        <div class="cool-tech-text">
-            <h3 class="cool-tech-title">SLA (Stereolithography)</h3>
-            <p>Folyékony gyantát keményít meg egy UV-lézer, így nagy felbontású és részletgazdag nyomatokat eredményez.</p>
-            <span class="figcaption cool-caption">SLA nyomtató és gyanta</span>
-        </div>
-        <div style="clear:both;"></div>
-    </div>
-
-    <div class="cool-tech-block float-left">
-        <img src="pic/slsprinter.jpg" alt="SLS nyomtató" class="cool-img float-left cool-img-large">
-        <div class="cool-tech-text">
-            <h3 class="cool-tech-title">SLS (Selective Laser Sintering)</h3>
-            <p>Porállagú anyagot (például nylonport) olvaszt össze lézerrel, így tartós és összetett szerkezetű alkatrészeket lehet nyomtatni.</p>
-            <span class="figcaption cool-caption">SLS technológia: porból szilárd tárgy</span>
-        </div>
-        <div style="clear:both;"></div>
-    </div>
-
-    <div class="cool-tech-block float-right">
-        <img src="pic/dlpprinter.jpg" alt="DLP nyomtató" class="cool-img float-right cool-img-large">
-        <div class="cool-tech-text">
-            <h3 class="cool-tech-title">DLP (Digital Light Processing)</h3>
-            <p>Az SLA-hoz hasonló, de itt egy digitális projektor vetít UV-fényt a gyantára, így egy egész réteg egyszerre keményedik meg.</p>
-            <span class="figcaption cool-caption">DLP nyomtató működése</span>
-        </div>
-        <div style="clear:both;"></div>
-    </div>
-
-    <div class="cool-tech-block float-left">
-        <img src="pic/mjfprinter.jpg" alt="MJF nyomtató" class="cool-img float-left cool-img-large">
-        <div class="cool-tech-text">
-            <h3 class="cool-tech-title">MJF (Multi Jet Fusion)</h3>
-            <p>Egy tintasugaras technológia, amely hőérzékeny porra viszi fel a kötőanyagot, majd hőkezeléssel hozza létre a végső formát.</p>
-            <span class="figcaption cool-caption">MJF: színes és funkcionális alkatrészek</span>
-        </div>
-        <div style="clear:both;"></div>
-    </div>
-
-    <div class="cool-tech-block float-right">
-        <img src="pic/binder_jetting.jpg" alt="Binder Jetting" class="cool-img float-right cool-img-large">
-        <div class="cool-tech-text">
-            <h3 class="cool-tech-title">Binder Jetting</h3>
-            <p>Színes vagy fém alapú nyomtatásra is alkalmas technológia, ahol egy kötőanyag rétegenként rögzíti a port, majd utókezeléssel erősítik meg az objektumot.</p>
-            <span class="figcaption cool-caption">Binder Jetting: színes modellek és fémnyomtatás</span>
-        </div>
-        <div style="clear:both;"></div>
-    </div>
-
-    <p class="cool-text" style="margin-top:32px;">
-        Ezeket a technológiákat az ipar, a prototípusgyártás, az orvostudomány és a hobbi 3D nyomtatás területén egyaránt alkalmazzák.
     </p>
 </section>
-<footer class="cool-footer">
+<footer>
     <p>
-        <b class="cool-footer-label">Az oldal készítője: </b> <i class="cool-footer-author">Kővágó Gergő</i> <br>
-        <b class="cool-footer-label">A készítés dátuma: </b> <i class="cool-footer-date">2025.02.09</i>
+        <b>Az oldal készítője: </b> <i>Kővágó Gergő</i> <br>
+        <b>A készítés dátuma: </b> <i>2025.02.09</i>
     </p>
 </footer>
 </body>
