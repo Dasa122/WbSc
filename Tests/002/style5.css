@@ -1,21 +1,20 @@
-/* Background and section styling */
 .cool-bg {
     background: linear-gradient(135deg, #f8f4ff 0%, #e0e7ff 100%);
     min-height: 100vh;
 }
 
 .cool-section {
-    background: rgba(255,255,255,0.95);
+    background: rgba(255,255,255,0.97);
     border-radius: 18px;
     box-shadow: 0 8px 32px 0 rgba(44,0,80,0.08);
-    max-width: 1200px;
+    max-width: 900px;
     margin: 40px auto;
     padding: 40px 32px;
 }
 
 .cool-title {
     font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: #300049;
     letter-spacing: 1px;
     text-align: center;
@@ -30,7 +29,8 @@
     text-underline-offset: 6px;
 }
 
-.cool-highlight {
+.cool-highlight,
+.highlighted-paragraph {
     background: linear-gradient(90deg, #e0c3fc 0%, #8ec5fc 100%);
     color: #300049;
     border-left: 6px solid #7c3aed;
@@ -39,22 +39,26 @@
     border-radius: 8px;
     padding: 14px 18px;
     box-shadow: 0 2px 8px 0 rgba(124,58,237,0.07);
+    margin-bottom: 24px;
 }
 
-.cool-img {
+.cool-img,
+.img-center {
     border-radius: 16px;
     border: 3px solid #7c3aed;
     max-width: 100%;
-    margin: 0 auto 12px auto;
+    margin: 28px auto 12px auto;
     display: block;
     transition: transform 0.2s;
 }
-.cool-img:hover {
+.cool-img:hover,
+.img-center:hover {
     transform: scale(1.04) rotate(-1deg);
     box-shadow: 0 8px 32px 0 rgba(124,58,237,0.15);
 }
 
-.cool-caption {
+.cool-caption,
+.figcaption {
     display: block;
     text-align: center;
     color: #7c3aed;
@@ -62,20 +66,6 @@
     margin-top: 6px;
     font-style: italic;
     letter-spacing: 0.5px;
-}
-
-.cool-text {
-    font-size: 1.15rem;
-    color: #2d0066;
-    line-height: 1.7;
-    margin-top: 18px;
-}
-
-.cool-keyword {
-    color: #7c3aed;
-    font-weight: 600;
-    text-decoration: underline;
-    text-underline-offset: 3px;
 }
 
 .cool-footer {

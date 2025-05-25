@@ -1,21 +1,20 @@
-/* Background and section styling */
 .cool-bg {
     background: linear-gradient(135deg, #f8f4ff 0%, #e0e7ff 100%);
     min-height: 100vh;
 }
 
 .cool-section {
-    background: rgba(255,255,255,0.95);
+    background: rgba(255,255,255,0.97);
     border-radius: 18px;
     box-shadow: 0 8px 32px 0 rgba(44,0,80,0.08);
-    max-width: 1200px;
+    max-width: 900px;
     margin: 40px auto;
     padding: 40px 32px;
 }
 
 .cool-title {
     font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: #300049;
     letter-spacing: 1px;
     text-align: center;
@@ -41,11 +40,23 @@
     box-shadow: 0 2px 8px 0 rgba(124,58,237,0.07);
 }
 
+.cool-list {
+    font-size: 1.1rem;
+    color: #2d0066;
+    margin: 24px 0 32px 24px;
+    padding-left: 18px;
+}
+
+.cool-list li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
 .cool-img {
     border-radius: 16px;
     border: 3px solid #7c3aed;
     max-width: 100%;
-    margin: 0 auto 12px auto;
+    margin: 28px auto 12px auto;
     display: block;
     transition: transform 0.2s;
 }
@@ -64,18 +75,56 @@
     letter-spacing: 0.5px;
 }
 
-.cool-text {
-    font-size: 1.15rem;
-    color: #2d0066;
-    line-height: 1.7;
-    margin-top: 18px;
+.cool-table-container {
+    margin: 36px 0 0 0;
+    text-align: center;
 }
 
-.cool-keyword {
+.cool-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background: #f7f3ff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px 0 rgba(124,58,237,0.06);
+    border: 2px solid #7c3aed; /* Added visible border */
+}
+
+.cool-table th, .cool-table td {
+    padding: 14px 10px;
+    border-bottom: 1px solid #e0c3fc;
+    text-align: center;
+    font-size: 1rem;
+    border-right: 1px solid #e0c3fc; /* Added cell border */
+}
+.cool-table th:last-child, .cool-table td:last-child {
+    border-right: none; /* Remove border on last column */
+}
+
+.cool-table th {
+    background: #e0c3fc;
+    color: #300049;
+    font-weight: 700;
+}
+
+.cool-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Alternating row colors */
+.cool-table tbody tr:nth-child(odd) {
+    background: #fff;
+}
+.cool-table tbody tr:nth-child(even) {
+    background: #f3eaff;
+}
+
+.cool-table-caption {
     color: #7c3aed;
-    font-weight: 600;
-    text-decoration: underline;
-    text-underline-offset: 3px;
+    font-size: 1rem;
+    margin-top: 8px;
+    font-style: italic;
 }
 
 .cool-footer {
@@ -100,3 +149,5 @@
     font-style: italic;
     text-decoration: underline;
 }
+
+

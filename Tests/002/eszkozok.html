@@ -5,10 +5,11 @@
     <title>Eszközök és szoftverek</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="theme.css">
-    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: #f8f4ff;">
+<body class="cool-bg">
 <nav>
     <div class="navbar navbar-expand-lg navbar-dark custom-navbar-bg">
         <div class="container-fluid">
@@ -18,98 +19,140 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Kezdőlap: Fedezd fel a 3D nyomtatás világát!</a>
+                    <li class="nav-item ">
+                        <a class="nav-link navcolor " href="index.html">Kezdőlap: Fedezd fel a 3D nyomtatás világát!</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="3dnyomtats.html">Mi az a 3D nyomtatás?</a>
+                    <li class="nav-item ">
+                        <a class="nav-link navcolor " href="3dnyomtats.html">Mi az a 3D nyomtatás?</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="falytai.html">A 3D nyomtatás fajtái</a>
+                    <li class="nav-item ">
+                        <a class="nav-link navcolor " href="falytai.html">Nyomtatási technológiák</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tippek.html">Tippek a kezdőknek</a>
+                    <li class="nav-item ">
+                        <a class="nav-link navcolor" href="anyagok.html">Filamentek és anyagok</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="media.html">Média</a>
+                    <li class="nav-item ">
+                        <a class="nav-link navcolor" href="tippek.html">Tippek és trükkök</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link navcolor" href="media.html">Média</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link navcolor" href="kozosseg.html">Közösség</a>
+                    </li>                    
+                    <li class="nav-item ">
+                        <a class="nav-link navcolor" href="eszkozok.html">Eszközök és szoftverek</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
 </nav>
-<main class="container py-5">
-    <h2 class="text-center mb-4" style="color:#300049;">🛠️ Eszközök és szoftverek</h2>
-    <p class="highlighted-paragraph">
+<section class="cool-section">
+    <h2 class="cool-title">🛠️ Eszközök és <span class="highlight-3d">szoftverek</span></h2>
+    <p class="highlighted-paragraph cool-highlight">
         A megfelelő szoftverek és eszközök kiválasztása kulcsfontosságú a sikeres 3D nyomtatáshoz!
     </p>
-    <div class="row justify-content-center">
-        <div class="col-md-10">
-            <div class="card shadow" style="border-radius: 18px;">
-                <div class="card-body">
-                    <h4 class="card-title" style="color:mediumpurple;">Ajánlott 3D modellező és szeletelő programok</h4>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h5>Modellező szoftverek</h5>
-                            <ul>
-                                <li><b>TinkerCAD</b> – <a href="https://www.tinkercad.com/" target="_blank">tinkercad.com</a> (kezdőknek, online)</li>
-                                <li><b>Fusion 360</b> – <a href="https://www.autodesk.com/products/fusion-360/" target="_blank">autodesk.com</a> (haladóknak, ingyenes diák verzió)</li>
-                                <li><b>Blender</b> – <a href="https://www.blender.org/" target="_blank">blender.org</a> (haladó, nyílt forráskódú)</li>
-                                <li><b>FreeCAD</b> – <a href="https://www.freecad.org/" target="_blank">freecad.org</a> (ingyenes, parametrikus)</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <h5>Szeletelő programok</h5>
-                            <ul>
-                                <li><b>Ultimaker Cura</b> – <a href="https://ultimaker.com/software/ultimaker-cura" target="_blank">ultimaker.com</a> (ingyenes, népszerű)</li>
-                                <li><b>PrusaSlicer</b> – <a href="https://www.prusa3d.com/page/prusaslicer_424/" target="_blank">prusa3d.com</a> (ingyenes, Prusa nyomtatókhoz optimalizált)</li>
-                                <li><b>Lychee Slicer</b> – <a href="https://mango3d.io/lychee-slicer-3d/" target="_blank">mango3d.io</a> (gyanta nyomtatókhoz)</li>
-                                <li><b>ideaMaker</b> – <a href="https://www.raise3d.com/ideamaker/" target="_blank">raise3d.com</a> (ingyenes, sokoldalú)</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="alert alert-info mt-4" style="border-radius: 12px;">
-                        <b>Tipp:</b> Mindig ellenőrizd, hogy a választott szoftver támogatja-e a nyomtatódat!
-                    </div>
-                    <table class="table mt-4">
-                        <caption>Ajánlott szeletelő programok összehasonlítása</caption>
-                        <thead>
-                            <tr>
-                                <th>Szoftver</th>
-                                <th>Típus</th>
-                                <th>Előny</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Ultimaker Cura</td>
-                                <td>Szeletelő</td>
-                                <td>Ingyenes, népszerű, sok nyomtatóhoz jó</td>
-                            </tr>
-                            <tr>
-                                <td>PrusaSlicer</td>
-                                <td>Szeletelő</td>
-                                <td>Prusa nyomtatókhoz optimalizált, ingyenes</td>
-                            </tr>
-                            <tr>
-                                <td>Lychee Slicer</td>
-                                <td>Szeletelő</td>
-                                <td>Gyanta nyomtatókhoz, modern felület</td>
-                            </tr>
-                            <tr>
-                                <td>ideaMaker</td>
-                                <td>Szeletelő</td>
-                                <td>Ingyenes, sokoldalú</td>
-                            </tr>
-                        </tbody>
-                    </table>
+    <div class="cool-text">
+        <h4 style="color:mediumpurple;">Ajánlott 3D modellező és szeletelő programok</h4>
+        <div style="display: flex; flex-wrap: wrap; gap: 32px;">
+            <div style="flex: 1 1 240px; min-width: 220px;">
+                <!-- Modellező szoftverek képek -->
+                <div class="figure img-center">
+                    <img src="pic/thinkercad.jpg" alt="TinkerCAD" class="cool-img">
+                    <span class="figcaption cool-caption">TinkerCAD</span>
                 </div>
+                <div class="figure img-center">
+                    <img src="pic/fusion360.png" alt="Fusion 360" class="cool-img">
+                    <span class="figcaption cool-caption">Fusion 360</span>
+                </div>
+                <div class="figure img-center">
+                    <img src="pic/blender.png" alt="Blender" class="cool-img">
+                    <span class="figcaption cool-caption">Blender</span>
+                </div>
+                <div class="figure img-center">
+                    <img src="pic/freecad.png" alt="FreeCAD" class="cool-img">
+                    <span class="figcaption cool-caption">FreeCAD</span>
+                </div>
+                <h5>Modellező szoftverek</h5>
+                <ul>
+                    <li><b>TinkerCAD</b> – <a href="https://www.tinkercad.com/" target="_blank">tinkercad.com</a> (kezdőknek, online)</li>
+                    <li><b>Fusion 360</b> – <a href="https://www.autodesk.com/products/fusion-360/" target="_blank">autodesk.com</a> (haladóknak, ingyenes diák verzió)</li>
+                    <li><b>Blender</b> – <a href="https://www.blender.org/" target="_blank">blender.org</a> (haladó, nyílt forráskódú)</li>
+                    <li><b>FreeCAD</b> – <a href="https://www.freecad.org/" target="_blank">freecad.org</a> (ingyenes, parametrikus)</li>
+                </ul>
+            </div>
+            <div style="flex: 1 1 240px; min-width: 220px;">
+                <!-- Szeletelő programok képek -->
+                <div class="figure img-center">
+                    <img src="pic/cura.png" alt="Ultimaker Cura" class="cool-img">
+                    <span class="figcaption cool-caption">Ultimaker Cura</span>
+                </div>
+                <div class="figure img-center">
+                    <img src="pic/prusaslicer.png" alt="PrusaSlicer" class="cool-img">
+                    <span class="figcaption cool-caption">PrusaSlicer</span>
+                </div>
+                <div class="figure img-center">
+                    <img src="pic/lychee.png" alt="Lychee Slicer" class="cool-img">
+                    <span class="figcaption cool-caption">Lychee Slicer</span>
+                </div>
+                <div class="figure img-center">
+                    <img src="pic/ideamaker.png" alt="ideaMaker" class="cool-img">
+                    <span class="figcaption cool-caption">ideaMaker</span>
+                </div>
+                <h5>Szeletelő programok</h5>
+                <ul>
+                    <li><b>Ultimaker Cura</b> – <a href="https://ultimaker.com/software/ultimaker-cura" target="_blank">ultimaker.com</a> (ingyenes, népszerű)</li>
+                    <li><b>PrusaSlicer</b> – <a href="https://www.prusa3d.com/page/prusaslicer_424/" target="_blank">prusa3d.com</a> (ingyenes, Prusa nyomtatókhoz optimalizált)</li>
+                    <li><b>Lychee Slicer</b> – <a href="https://mango3d.io/lychee-slicer-3d/" target="_blank">mango3d.io</a> (gyanta nyomtatókhoz)</li>
+                    <li><b>ideaMaker</b> – <a href="https://www.raise3d.com/ideamaker/" target="_blank">raise3d.com</a> (ingyenes, sokoldalú)</li>
+                </ul>
             </div>
         </div>
+        <div class="cool-highlight" style="margin-top:24px;">
+            <b>Tipp:</b> Mindig ellenőrizd, hogy a választott szoftver támogatja-e a nyomtatódat!
+        </div>
+        <div class="cool-table-container" style="margin-top:32px;">
+            <table class="cool-table">
+                <caption class="cool-table-caption">Ajánlott szeletelő programok összehasonlítása</caption>
+                <thead>
+                    <tr>
+                        <th>Szoftver</th>
+                        <th>Típus</th>
+                        <th>Előny</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ultimaker Cura</td>
+                        <td>Szeletelő</td>
+                        <td>Ingyenes, népszerű, sok nyomtatóhoz jó</td>
+                    </tr>
+                    <tr>
+                        <td>PrusaSlicer</td>
+                        <td>Szeletelő</td>
+                        <td>Prusa nyomtatókhoz optimalizált, ingyenes</td>
+                    </tr>
+                    <tr>
+                        <td>Lychee Slicer</td>
+                        <td>Szeletelő</td>
+                        <td>Gyanta nyomtatókhoz, modern felület</td>
+                    </tr>
+                    <tr>
+                        <td>ideaMaker</td>
+                        <td>Szeletelő</td>
+                        <td>Ingyenes, sokoldalú</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
-</main>
-<footer class="text-center py-3" style="background-color: #300049;">
-    <span style="color: #fff;">Az oldal készítője: <i>Kővágó Gergő</i> | Dátum: <i>2025.02.09</i></span>
+</section>
+<footer class="cool-footer">
+    <p>
+        <b class="cool-footer-label">Az oldal készítője: </b> <i class="cool-footer-author">Kővágó Gergő</i> <br>
+        <b class="cool-footer-label">A készítés dátuma: </b> <i class="cool-footer-date">2025.02.09</i>
+    </p>
 </footer>
 </body>
 </html>
