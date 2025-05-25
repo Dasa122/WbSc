@@ -1,4 +1,6 @@
 body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-image: linear-gradient(45deg, #4a0072, #00838f) ;
 }
 
@@ -12,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    color: #4a2574
+    color: white;
 }
 
 h1{
@@ -25,6 +27,7 @@ img{
 
 .divanim {
     width: 50%;
+    color: #4a2574;
     height: 20%;
     border-radius: 20px;
     margin: 0 auto;
@@ -40,31 +43,10 @@ img{
 
 .divp{
     padding: 10px;
-}
-
-.div1{
-    background-image: linear-gradient(45deg, #289eaafc, #289eaa24) ;
-}
-.div2{
-    background-image: linear-gradient(45deg, #289eaafc, #289eaa24) ;
+    color: #3c1863;
 
 }
-.div3{
-    background-image: linear-gradient(45deg, #289eaafc, #289eaa24) ;
 
-}
-.div4{
-    background-image: linear-gradient(45deg, #289eaafc, #289eaa24) ;
-
-}
-.div5{
-    background-image: linear-gradient(45deg, #289eaafc, #289eaa24) ;
-
-}
-.div6{
-    background-image: linear-gradient(45deg, #289eaafc, #289eaa24) ;
-
-}
-.div7{
-    background-image: linear-gradient(45deg, #289eaafc, #289eaa24) ;
+.div1, .div2, .div3, .div4, .div5, .div6, .div7 {
+    background-image: linear-gradient(45deg, #289eaafc, #289eaa24);
 }
