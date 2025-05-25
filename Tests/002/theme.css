@@ -1,7 +1,7 @@
 body {
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-image: linear-gradient(45deg, #4a0072, #00838f);
+    background-image: linear-gradient(45deg, #4a0072, #00838f) !important;
     font-family: Arial, sans-serif;
 }
 
@@ -19,4 +19,36 @@ p{
     background-position: center;
     padding: 1rem 2rem;
 }
+.navcolor {
+    color: #ffffff !important;
+}
+.navcolor:hover {
+    color: #ba51ff !important;
+}
 
+a:link {
+    color: #2575fc ;
+}
+
+a:visited {
+    color: #6a11cb  ;
+}
+
+a:hover {
+    color: #ff9800 ;
+}
+
+.custom-footer {
+    background: #300049;
+    text-align: center;
+    padding: 24px 0 12px 0;
+    margin-top: 40px;
+}
+.custom-footer p {
+    color: #fff;
+    margin: 0;
+}
+
+img {
+    width: 500px;
+}
