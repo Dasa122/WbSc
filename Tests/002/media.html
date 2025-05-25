@@ -5,59 +5,76 @@
   <title>Média</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="theme.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <nav>
-  <div class="navbar navbar-expand-lg" style="background-color: #300049;">
-    <div class="container-fluid">
-      <a class="navbar-brand" id="iniciale" href="index.html" style="background-color: mediumpurple; border-radius: 15px; color: #fff;">3D Nyomtatás</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #fff;">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html" style="color: #fff;">Kezdőlap:Fedezd fel a 3D nyomtatás világát!</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="3dnyomtats.html" style="color: #fff;">Mi az a 3D nyomtatás?</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="falytai.html" style="color: #fff;">A 3D nyomtatas falytái</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tippek.html" style="color: #fff;">Tippek a kezdőknek</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="media.html" style="color: #fff;">Média</a>
-          </li>
-        </ul>
-
-        <!--        <a href="index.html">Kezdőlap:Fedezd fel a 3D nyomtatás világát!</a><br>
-                <a href="3dnyomtats.html">Mi az a 3D nyomtatás?</a><br>
-                <a href="falytai.html">A 3D nyomtatas falytái</a> <br>
-                <a href="tippek.html">Tippek a kezdőknek</a><br>
-                <a href="media.html">Média</a>-->
-      </div>
+    <div class="navbar navbar-expand-lg navbar-dark custom-navbar-bg">
+        <div class="container-fluid">
+            <a class="navbar-brand px-3 py-2" id="iniciale" href="index.html">3D Nyomtatás</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Kezdőlap: Fedezd fel a 3D nyomtatás világát!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="3dnyomtats.html">Mi az a 3D nyomtatás?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="falytai.html">A 3D nyomtatás fajtái</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tippek.html">Tippek a kezdőknek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="media.html">Média</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-  </div>
 </nav>
 <section>
   <h2>Média</h2>
-  <p>
-    <img src="pic/3D-nyomtatas-magyarorszag.jpg">
-    <img src="pic/Builder-Extreme-3000-3D-nyomtato-q9ebw4ikmkj7dneqiq69tfh1jazzbyik9donmxvwn4.jpg">
-    <img src="pic/zaklady-3d-tisku-fdm.jpg">
-    <img src="pic/industry-3225119_960_720.jpg">
-    <img src="pic/Nyitokep_3D-nyomtatas.png">
-    <img src="pic/1665979376026.jpg">
-    <img src="pic/images.jpg">
-    <img src="pic/beauty2-scaled.jpg">
-
-
+  <p class="highlighted-paragraph">
+    A 3D nyomtatás kreativitást és technológiát ötvöz – nézd meg a legizgalmasabb alkotásokat!
   </p>
+  <div class="figure img-center">
+    <img src="pic/3D-nyomtatas-magyarorszag.jpg" alt="3D nyomtatás Magyarországon" class="img-center">
+    <span class="figcaption">3D nyomtatás Magyarországon</span>
+  </div>
+  <div class="figure img-center">
+    <img src="pic/Builder-Extreme-3000-3D-nyomtato-q9ebw4ikmkj7dneqiq69tfh1jazzbyik9donmxvwn4.jpg" alt="Builder Extreme 3000" class="img-center">
+    <span class="figcaption">Builder Extreme 3000 ipari 3D nyomtató</span>
+  </div>
+  <div class="figure img-center">
+    <img src="pic/zaklady-3d-tisku-fdm.jpg" alt="FDM alapok" class="img-center">
+    <span class="figcaption">FDM technológia alapjai</span>
+  </div>
+  <div class="figure img-center">
+    <img src="pic/industry-3225119_960_720.jpg" alt="Ipari 3D nyomtatás" class="img-center">
+    <span class="figcaption">Ipari 3D nyomtatás</span>
+  </div>
+  <div class="figure img-center">
+    <img src="pic/Nyitokep_3D-nyomtatas.png" alt="Nyitókép" class="img-center">
+    <span class="figcaption">Nyitókép: 3D nyomtatás</span>
+  </div>
+  <div class="figure img-center">
+    <img src="pic/1665979376026.jpg" alt="3D nyomtatott tárgyak" class="img-center">
+    <span class="figcaption">3D nyomtatott tárgyak</span>
+  </div>
+  <div class="figure img-center">
+    <img src="pic/images.jpg" alt="Inspiráció" class="img-center">
+    <span class="figcaption">Inspiráció a 3D nyomtatásban</span>
+  </div>
+  <div class="figure img-center">
+    <img src="pic/beauty2-scaled.jpg" alt="Művészi 3D nyomtatás" class="img-center">
+    <span class="figcaption">Művészi 3D nyomtatás</span>
+  </div>
 </section>
 <footer>
   <p>

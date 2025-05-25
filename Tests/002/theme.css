@@ -1,0 +1,22 @@
+body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(45deg, #4a0072, #00838f);
+    font-family: Arial, sans-serif;
+}
+
+p{
+    text-indent: 20px;
+}
+
+#iniciale {
+    font-size: 150%;
+    color: #ba51ff;
+}
+.custom-navbar-bg {
+    background-image: linear-gradient(45deg, #4a0072, #00838f);
+    background-size: cover;
+    background-position: center;
+    padding: 1rem 2rem;
+}
+
