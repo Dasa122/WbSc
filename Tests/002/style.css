@@ -1,18 +1,18 @@
 body{
-    background-color: #D8D8F6;
+    background-image: linear-gradient(45deg, #4a0072, #00838f) ;
 }
 
 #iniciale {
- font-size: 150%;
+    font-size: 150%;
     color: #690ca5
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #7E3F8F;
+    color: #0f0529;
 }
 
 p {
-    color: #143109
+    color: #4a2574
 }
 
 h1{
@@ -23,20 +23,48 @@ img{
     width: 500px;
 }
 
-
-.what3D{
+.divanim {
     width: 50%;
     height: 20%;
     border-radius: 20px;
-    background-color: red;
-    justify-content: center;
+    margin: 0 auto;
+    transition:
+            background-color 0.4s ease-in-out,
+            transform 0.4s ease-in-out,
+            box-shadow 0.4s ease-in-out;
 }
-.what3D:hover{
-    transition: 0.5s ease-in-out;
+.divanim:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .divp{
     padding: 10px;
+}
+
+.div1{
+    background-image: linear-gradient(45deg, #289eaafc, #289eaa24) ;
+}
+.div2{
+    background-image: linear-gradient(45deg, #289eaafc, #289eaa24) ;
+
+}
+.div3{
+    background-image: linear-gradient(45deg, #289eaafc, #289eaa24) ;
+
+}
+.div4{
+    background-image: linear-gradient(45deg, #289eaafc, #289eaa24) ;
+
+}
+.div5{
+    background-image: linear-gradient(45deg, #289eaafc, #289eaa24) ;
+
+}
+.div6{
+    background-image: linear-gradient(45deg, #289eaafc, #289eaa24) ;
+
+}
+.div7{
+    background-image: linear-gradient(45deg, #289eaafc, #289eaa24) ;
 }
