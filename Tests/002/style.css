@@ -22,3 +22,21 @@ h1{
 img{
     width: 500px;
 }
+
+
+.what3D{
+    width: 50%;
+    height: 20%;
+    border-radius: 20px;
+    background-color: red;
+    justify-content: center;
+}
+.what3D:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.divp{
+    padding: 10px;
+}
