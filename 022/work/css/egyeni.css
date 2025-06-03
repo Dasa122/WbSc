@@ -1,0 +1,29 @@
+body{
+    /* ... */    
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+}
+
+#gradient_piros_feher_zold{
+    background: -webkit-linear-gradient(red, white, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+    text-align: center;
+}
+
+.nav-link, .nav-link:link, .nav-link:active, .nav-link:hover, .nav-link:visited{
+    /* ... */
+}
+
+.table th, .table td {
+    color: green;
+}
+
+.navcustom {
+    background-color: white !important;
+}
+.navtext{
+    color: red !important;
+}
